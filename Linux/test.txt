@@ -1,0 +1,25 @@
+﻿(i : 不显示任何闲置 (idle) 或无用 (zombie) 的行程
+n : 更新的次数，完成后将会退出 top
+b : 批次档模式，搭配 "n" 参数一起使用，可以用来将 top 的结果输出到档案内)
+2018年 02月 27日 星期二 16:31:09 CST
+              total        used        free      shared  buff/cache   available
+ Mem:           9838         970        6719          14        2148        8548
+ Swap:          5056           0        5056
+文件系统                             容量  已用  可用 已用% 挂载点
+ /dev/mapper/centos_hikvisionos-root   48G  1.2G   47G    3% /
+ devtmpfs                             4.8G     0  4.8G    0% /dev
+ tmpfs                                4.9G     0  4.9G    0% /dev/shm
+ tmpfs                                4.9G  8.7M  4.8G    1% /run
+ tmpfs                                4.9G     0  4.9G    0% /sys/fs/cgroup
+ /dev/mapper/centos_hikvisionos-opt    48G  1.8G   46G    4% /opt
+ /dev/sda1                            497M  146M  352M   30% /boot
+ /dev/sda3                            128M     0  128M    0% /boot/efi
+ tmpfs                                984M     0  984M    0% /run/user/0
+ tmpfs                                984M     0  984M    0% /run/user/1000
+top - 16:31:10 up 1 day,  5:19,  3 users,  load average: 0.01, 0.06, 0.05
+ Tasks: 160 total,   1 running, 159 sleeping,   0 stopped,   0 zombie
+ %Cpu(s):  0.2 us,  0.1 sy,  0.0 ni, 99.6 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
+ KiB Mem : 10074908 total,  6881368 free,   993988 used,  2199552 buff/cache
+ KiB Swap:  5178364 total,  5178364 free,        0 used.  8753784 avail Mem 
+ 
+   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
