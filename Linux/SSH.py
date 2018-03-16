@@ -72,9 +72,9 @@ class SSHConnect():
 
 if __name__ == '__main__':
 
-    host = '10.100.60.216'
-    usr = 'hik'
-    pwd = 'Hik@cloud'
+    host = '10.100.60.XX'
+    usr = 'XXX'
+    pwd = 'XXX'
 
 
     #conn._download('install_agent.sh', 'C:/Users/jiangzeyu5/Desktop/install_agent.sh')
