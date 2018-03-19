@@ -1,21 +1,21 @@
-date
-2018年 02月 27日 星期二 17:08:49 CST
+﻿date
+2018年 03月 08日 星期四 11:06:12 CST
 
 ~~~~~~~~~~
 free -m
               total        used        free      shared  buff/cache   available
- Mem:           9838        1047        6640          14        2151        8471
+ Mem:           9838        1122        6139          16        2576        8387
  Swap:          5056           0        5056
 
 ~~~~~~~~~~
 df -h
 文件系统                             容量  已用  可用 已用% 挂载点
- /dev/mapper/centos_hikvisionos-root   48G  1.2G   47G    3% /
+ /dev/mapper/centos_hikvisionos-root   48G  1.2G   46G    3% /
  devtmpfs                             4.8G     0  4.8G    0% /dev
  tmpfs                                4.9G     0  4.9G    0% /dev/shm
- tmpfs                                4.9G  8.7M  4.8G    1% /run
+ tmpfs                                4.9G   17M  4.8G    1% /run
  tmpfs                                4.9G     0  4.9G    0% /sys/fs/cgroup
- /dev/mapper/centos_hikvisionos-opt    48G  1.8G   46G    4% /opt
+ /dev/mapper/centos_hikvisionos-opt    48G  2.2G   46G    5% /opt
  /dev/sda1                            497M  146M  352M   30% /boot
  /dev/sda3                            128M     0  128M    0% /boot/efi
  tmpfs                                984M     0  984M    0% /run/user/0
@@ -23,13 +23,14 @@ df -h
 
 ~~~~~~~~~~
 top -bn 1 -i -c
-top - 17:08:49 up 1 day,  5:57,  3 users,  load average: 0.07, 0.04, 0.12
- Tasks: 159 total,   1 running, 158 sleeping,   0 stopped,   0 zombie
- %Cpu(s):  0.2 us,  0.1 sy,  0.0 ni, 99.6 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
- KiB Mem : 10074908 total,  6800328 free,  1071688 used,  2202892 buff/cache
- KiB Swap:  5178364 total,  5178364 free,        0 used.  8675236 avail Mem 
+top - 11:06:12 up 9 days, 23:54,  1 user,  load average: 0.00, 0.01, 0.05
+ Tasks: 143 total,   1 running, 142 sleeping,   0 stopped,   0 zombie
+ %Cpu(s):  0.3 us,  0.1 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+ KiB Mem : 10074908 total,  6286740 free,  1149776 used,  2638392 buff/cache
+ KiB Swap:  5178364 total,  5178364 free,        0 used.  8588404 avail Mem 
  
    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 22073 hik       20   0  146040   1984   1464 R   6.7  0.0   0:00.01 top -bn 1 +
 
 ~~~~~~~~~~
 ls
@@ -37,23 +38,23 @@ install_agent.sh
 
 ~~~~~~~~~~
 date
-2018年 02月 27日 星期二 17:10:26 CST
+2018年 03月 08日 星期四 11:21:22 CST
 
 ~~~~~~~~~~
 free -m
               total        used        free      shared  buff/cache   available
- Mem:           9838        1045        6641          14        2151        8472
+ Mem:           9838        1122        6138          16        2577        8387
  Swap:          5056           0        5056
 
 ~~~~~~~~~~
 df -h
 文件系统                             容量  已用  可用 已用% 挂载点
- /dev/mapper/centos_hikvisionos-root   48G  1.2G   47G    3% /
+ /dev/mapper/centos_hikvisionos-root   48G  1.2G   46G    3% /
  devtmpfs                             4.8G     0  4.8G    0% /dev
  tmpfs                                4.9G     0  4.9G    0% /dev/shm
- tmpfs                                4.9G  8.7M  4.8G    1% /run
+ tmpfs                                4.9G   17M  4.8G    1% /run
  tmpfs                                4.9G     0  4.9G    0% /sys/fs/cgroup
- /dev/mapper/centos_hikvisionos-opt    48G  1.8G   46G    4% /opt
+ /dev/mapper/centos_hikvisionos-opt    48G  2.2G   46G    5% /opt
  /dev/sda1                            497M  146M  352M   30% /boot
  /dev/sda3                            128M     0  128M    0% /boot/efi
  tmpfs                                984M     0  984M    0% /run/user/0
@@ -61,12 +62,16 @@ df -h
 
 ~~~~~~~~~~
 top -bn 1 -i -c
-top - 17:10:27 up 1 day,  5:58,  3 users,  load average: 0.01, 0.03, 0.11
- Tasks: 159 total,   1 running, 158 sleeping,   0 stopped,   0 zombie
- %Cpu(s):  0.2 us,  0.1 sy,  0.0 ni, 99.6 id,  0.1 wa,  0.0 hi,  0.0 si,  0.0 st
- KiB Mem : 10074908 total,  6799924 free,  1072096 used,  2202888 buff/cache
- KiB Swap:  5178364 total,  5178364 free,        0 used.  8674856 avail Mem 
+top - 11:21:23 up 10 days, 9 min,  1 user,  load average: 0.00, 0.01, 0.05
+ Tasks: 143 total,   1 running, 142 sleeping,   0 stopped,   0 zombie
+ %Cpu(s):  0.3 us,  0.1 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+ KiB Mem : 10074908 total,  6286192 free,  1149524 used,  2639192 buff/cache
+ KiB Swap:  5178364 total,  5178364 free,        0 used.  8588740 avail Mem 
  
    PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+
+~~~~~~~~~~
+ls
+install_agent.sh
 
 ~~~~~~~~~~

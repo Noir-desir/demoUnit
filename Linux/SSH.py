@@ -76,8 +76,9 @@ if __name__ == '__main__':
     usr = 'XXX'
     pwd = 'XXX'
 
-
-    #conn._download('install_agent.sh', 'C:/Users/jiangzeyu5/Desktop/install_agent.sh')
+    # conn = SSHConnect(host, usr, pwd)
+    # conn.download('install_agent.sh', 'C:/Users/jiangzeyu/Desktop/install_agent.sh')
+    # conn.upload('hello.txt', 'C:/Users/jiangzeyu/Desktop/hello.txt')
 
     conn = SSHConnect(host, usr, pwd)
     cmd = ['date', 'free -m', 'df -h', 'top -bn 1 -i -c', 'ls']  # 'cat /proc/meminfo'
@@ -85,6 +86,7 @@ if __name__ == '__main__':
         res = conn.exec_command(m)
         conn.write_in('name', m+'\n'+res)
 
+<<<<<<< Updated upstream
     # conn = SSHConnect(host, usr, pwd)
     # conn.exec_command('cd /home;pwd')
     # conn.write_in('name')
@@ -92,3 +94,6 @@ if __name__ == '__main__':
     # conn.write_in('name')
     #
     # conn.close()
+=======
+    conn.close()
+>>>>>>> Stashed changes
