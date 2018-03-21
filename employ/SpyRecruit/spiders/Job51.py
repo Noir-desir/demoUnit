@@ -10,4 +10,3 @@ import datetime
 import bs4
 import scrapy
 from scray.http import Request
-
