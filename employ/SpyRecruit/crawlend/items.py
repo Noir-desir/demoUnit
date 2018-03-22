@@ -7,7 +7,7 @@
 
 import scrapy
 from scrapy_djangoitem import DjangoItem
-from ..background.models import Recruit, Firm, Proxy
+from employ.background.models import Recruit, Firm, Proxy
 
 
 class CrawlendItem(DjangoItem):
