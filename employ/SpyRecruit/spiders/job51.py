@@ -8,8 +8,11 @@
 import re
 import datetime
 import bs4
+
 import scrapy
-from scray.http import Request
+from scrapy.http import Request
+
+
 
 
 
