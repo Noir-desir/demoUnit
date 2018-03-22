@@ -5,8 +5,6 @@
 @author: jiangzeyu5
 '''
 
-# -*- coding: utf-8 -*-
-
 # Scrapy settings for crawlend project
 #
 # For simplicity, this file contains only settings considered important or
@@ -29,7 +27,7 @@ django.setup()
 IS_ONLY_TODAY = True
 
 # the keywords you want to search
-KEYWORD = 'python'
+KEYWORD = 'python'                #配置搜索关键字
 
 BOT_NAME = 'crawlend'
 SPIDER_MODULES = ['crawlend.spiders']
