@@ -14,7 +14,7 @@ today = datetime.date.today()
 
 class Recruit(models.Model):
     # 定义字段类型，招聘爬虫相关信息
-    belong = models.ForeignKey('Firm', verbose_name='所属公司', default='')
+    belong = models.ForeignKey('Firm', verbose_name='所属公司',on_delete=None, default=' ')
     resource = models.CharField('信息来源', max_length=255)
     url = models.URLField('信息链接', default='')
     name =models.CharField('职位名', max_length=255)
